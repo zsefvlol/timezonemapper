@@ -1,17 +1,3 @@
-# timezonemapper
-Golang lib that converts from GPS coordinate latitude/longitude to timezone string. 
-
-Translated from java version, see https://github.com/drtimcooper/LatLongToTimezone .
-
-# Install
-
-```shell script
-go get -u https://github.com/zsefvlol/timezonemapper
-```
-
-# Usage
-
-```go
 package main
 
 import (
@@ -35,10 +21,3 @@ func main() {
 	fmt.Println(t)
 	fmt.Println(t.UTC())
 }
-```
-
-# Map update
-
-Last updated at `2019.10.22`
-
-Will update (I guess) if the original project [drtimcooper/LatLongToTimezone](https://github.com/drtimcooper/LatLongToTimezone) updates. 

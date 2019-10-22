@@ -6,7 +6,7 @@ Translated from java version, see https://github.com/drtimcooper/LatLongToTimezo
 # Install
 
 ```shell script
-go get -u https://github.com/zsefvlol/timezonemapper
+go get -u github.com/zsefvlol/timezonemapper
 ```
 
 # Usage
